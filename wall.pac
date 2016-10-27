@@ -2746,7 +2746,7 @@ function FindProxyForURL(u,h)
 	{
 		if(dnsDomainIs(h,a[i]))
 		{
-			return "PROXY 47.88.3.172:8118"
+			return "PROXY 47.88.3.172:8888"
 		}
 	}
 	return "DIRECT"
